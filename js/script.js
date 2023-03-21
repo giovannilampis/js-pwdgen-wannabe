@@ -18,6 +18,6 @@ console.log(password);
 
 // show the resulting password on the web page
 
-document.getElementById("pwdgen").innerHTML = `${nameUser}${surnameUser}${favoriteColor}21`;
+document.getElementById("pwdgen").innerHTML = password;
 
 
